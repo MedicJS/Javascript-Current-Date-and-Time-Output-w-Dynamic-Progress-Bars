@@ -1,0 +1,22 @@
+/* Center Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+/* Date and Time Output */
+.outputDate {
+  border: 1px solid grey;
+  border-radius: 10%;
+  box-shadow: 1px 1px 1px;
+  width: 50%;
+  margin-bottom: 3%;
+  background-color: black;
+}
+
+.outputDate p {
+    padding: 0 10%;
+    font-family: sans-serif, bold;
+    font-size: 20px;
+    color: lawngreen;
+}
