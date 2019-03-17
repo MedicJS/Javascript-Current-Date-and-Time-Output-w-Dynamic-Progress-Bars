@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(255, 254, 254);
+}
+
 /* Center Heading */
 h1 {
     text-align: center;
@@ -9,14 +13,38 @@ h1 {
   border: 1px solid grey;
   border-radius: 10%;
   box-shadow: 1px 1px 1px;
-  width: 50%;
+  width: 85%;
   margin-bottom: 3%;
   background-color: black;
+  display: inline-block;
 }
 
 .outputDate p {
-    padding: 0 10%;
+    padding: 5% 5% 0% 5%;
     font-family: sans-serif, bold;
-    font-size: 20px;
+    font-size: 18px;
     color: lawngreen;
+    line-height: 25px;
+}
+.container {
+  text-align: center;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 600px) {
+ .outputDate {
+   margin-bottom: 5%;
+   width: 50%;
+ }
+ .outputDate p{
+  font-size: 20px;
+}
+ .progressDiv {
+   margin: auto;
+   width: 70%;
+   text-align: center;
+ }
+ .progress {
+   display: inline-block;
+ }
 }

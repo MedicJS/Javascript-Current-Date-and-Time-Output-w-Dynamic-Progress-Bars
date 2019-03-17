@@ -10,39 +10,40 @@
   <script type="text/javascript" src="app.js"></script>
 </head>
 <body>
-	<header>
-		<h1 class="container">JS Exercises</h1>
-  </header>
   <div class="container">
-    <h2>Output Current Date and Time</h2>
-    <br>
-    <div class="outputDate">
-      <p><b>Hello Today is <span id='dayOut'></span></b></p>
-      <p><b>and current time is <span id='timeOut'></span></b></p>
-    </div>
-    <h2>Date and Time Progress Bar</h2>
-    <br>
-    <h3>Days in Week</h3>
-    <div class="progress" style="width: 60%">
-      <div id='days-progress' class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60" style="width: 0%"></div>
-    </div>
-    <br>
-    <h3>Seconds left in Minute</h3>
-    <div class="progress" style="width: 60%">
-      <div id='secs-progress' class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60" style="width: 0%"></div>
-    </div>
-    <br>
-    <h3>Minutes left in Hour</h3>
-    <div class="progress" style="width: 60%">
-      <div id='mins-progress' class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60" style="width: 0%"></div>
-    </div>
-    <br>
-    <h3>Hours left in Day</h3>
-    <div class="progress" style="width: 60%">
-      <div id='hrs-progress' class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60" style="width: 0%"></div>
+    <header>
+      <h3>Output Current Date and Time - Progress Bars</h3>
+    </header>
+    <hr>
+    <div>
+      <div class="outputDate">
+        <p><b>Hello Today is <span id='dayOut'></span></b><b> and current time is <span id='timeOut'></span></b></p>
+      </div>
+      <h2>Date and Time Progress Bar</h2>
+      <br>
+      <div class="progressDiv" style="text-align: center">
+        <h3>Seconds left in Minute</h3>
+        <div class="progress" style="width: 100%">
+          <div id='secs-progress' class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60" style="width: 0%"></div>
+        </div>
+        <br>
+        <h3>Minutes left in Hour</h3>
+        <div class="progress" style="width: 100%">
+          <div id='mins-progress' class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60" style="width: 0%"></div>
+        </div>
+        <br>
+        <h3>Hours left in Day</h3>
+        <div class="progress" style="width: 100%">
+          <div id='hrs-progress' class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60" style="width: 0%"></div>
+        </div>
+        <br>
+        <h3>Days in Week</h3>
+        <div class="progress" style="width: 100%">
+          <div id='days-progress' class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60" style="width: 0%"></div>
+        </div>
+      </div>
     </div>
   </div>
- <hr>
 
 </body>
 </html>
